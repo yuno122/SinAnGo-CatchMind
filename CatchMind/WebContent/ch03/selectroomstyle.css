@@ -1,0 +1,61 @@
+@charset "EUC-KR";
+
+*{
+	font-family: 'Fredoka One', cursive;
+}
+
+body{
+	background-image:url('background.jpg');
+	background-color:#D9E5FF;
+	background-size:cover;
+}
+
+header{
+	position:relative;
+	width:auto;
+	height:90px;
+}
+header h1{
+	margin-left:30px;
+	margin-top:25px;
+	float:left;
+	color:#04B404;
+}
+header #select{
+	width:150px;
+	height:80px;
+	float:left;
+	margin-top:20px;
+	margin-left:800px;
+	color:black;
+	font-size:25px;
+}
+header #make{
+	width:150px;
+	height:80px;
+	float:left;
+	margin-top:20px;
+	margin-left:50px;
+	color:black;
+	font-size:25px;
+}
+
+section#main{
+	float:left;
+}
+section#main table{
+	margin-top:50px;
+	margin-left:50px;
+	width: 1020px;
+	border-collapse:collapse;
+	border-style:hidden;
+}
+
+aside#right{
+	float:left;
+	margin-left: 110px;
+	margin-top:90px;
+	width: 300px;
+	height: 300px;
+	
+}
